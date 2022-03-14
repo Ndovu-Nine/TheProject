@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyVersion>1</AssemblyVersion>
+    <FileVersion>1</FileVersion>
+    <Company>Ndovu Nine N9</Company>
+    <Authors>Mbithi Kioko</Authors>
+    <Description>Using a selected set of indicators we trained them (algorithms) to identify opportunities that were most likely to end in profit within a certain duration of time.
+TemboAI is made for the forex market, that is Binary Options, Digital Options and Scalping.</Description>
+    <Copyright>Ndovu Nine</Copyright>
+    <PackageProjectUrl>ai.ndovunine.com</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.ML" Version="1.5.1" />
+    <PackageReference Include="Microsoft.ML.FastTree" Version="1.5.1" />
+    <PackageReference Include="Microsoft.ML.LightGbm" Version="1.5.1" />
+    <PackageReference Include="TechnicalAnalysis.Net" Version="1.0.0" />
+    <PackageReference Include="Websocket.Client" Version="4.3.21" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MtApi5">
+      <HintPath>..\MtApi5.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NdovuTisa\NdovuTisa.csproj" />
+    <ProjectReference Include="..\TemboContext\TemboContext.csproj" />
+    <ProjectReference Include="..\TemboShared\TemboShared.csproj" />
+  </ItemGroup>
+
+</Project>

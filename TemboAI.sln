@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemboAI", "TemboAI\TemboAI.csproj", "{8B236EC4-3EDC-4905-8D50-F6F1EAC16B59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TickServer", "TickServer\TickServer\TickServer.csproj", "{BFCF657E-F851-47C7-BF03-7D958778098E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemboShared", "TemboShared\TemboShared.csproj", "{E8428D7E-576F-4ACB-9711-165C931CACB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NdovuTisa", "NdovuTisa\NdovuTisa.csproj", "{49414FDD-3DE9-4E93-8F2D-2E9FB3C10A05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemboContext", "TemboContext\TemboContext.csproj", "{D124392D-DB5F-4DC8-B145-5B7827C96EC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D94E22D-1E33-425B-A4D6-67B2E1C2DB11}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B236EC4-3EDC-4905-8D50-F6F1EAC16B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B236EC4-3EDC-4905-8D50-F6F1EAC16B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B236EC4-3EDC-4905-8D50-F6F1EAC16B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B236EC4-3EDC-4905-8D50-F6F1EAC16B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFCF657E-F851-47C7-BF03-7D958778098E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCF657E-F851-47C7-BF03-7D958778098E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCF657E-F851-47C7-BF03-7D958778098E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCF657E-F851-47C7-BF03-7D958778098E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8428D7E-576F-4ACB-9711-165C931CACB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8428D7E-576F-4ACB-9711-165C931CACB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8428D7E-576F-4ACB-9711-165C931CACB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8428D7E-576F-4ACB-9711-165C931CACB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49414FDD-3DE9-4E93-8F2D-2E9FB3C10A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49414FDD-3DE9-4E93-8F2D-2E9FB3C10A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49414FDD-3DE9-4E93-8F2D-2E9FB3C10A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49414FDD-3DE9-4E93-8F2D-2E9FB3C10A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D124392D-DB5F-4DC8-B145-5B7827C96EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D124392D-DB5F-4DC8-B145-5B7827C96EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D124392D-DB5F-4DC8-B145-5B7827C96EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D124392D-DB5F-4DC8-B145-5B7827C96EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {290EB95A-CD0A-4BC7-85C2-B0725C13CAF2}
+	EndGlobalSection
+EndGlobal
